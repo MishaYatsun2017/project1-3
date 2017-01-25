@@ -1,0 +1,124 @@
+body {
+	background-color: #D3D3D3;
+}
+
+.main-container {
+	padding-top: 100px;
+}
+
+.form-products {
+	padding: 20px;
+}
+
+.list {
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ABABAB;
+}
+
+.products, .left-products {
+	border-top: 1px solid #999999;
+}
+
+.left-products {
+	min-height: 20px;
+	padding: 15px;
+}
+
+.name-products {
+	padding: 15px;
+}
+
+.count-products {
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+
+.last-buttons {
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+.btn-minus, .btn-plus {
+	display: inline-block;
+	color: #FFF;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    vertical-align: middle;
+    box-shadow: 0 0 0.5em;
+}
+
+.btn-minus {
+	background-color: #DB2828;
+}
+
+.btn-plus {
+	background-color: #16ab39;
+}
+
+.title-name {
+	padding: 15px;
+	font-weight: 600;
+}
+
+.title-name:nth-child(3) {
+	border-top: 1px solid #999999;
+}
+
+span.right-products-lefts {
+	margin-bottom: 7px;
+	margin-right: 5px;
+	float: left;
+	overflow: hidden;
+	padding: 8px;
+	background-color: #E8E8E8;
+	border-radius: 5px;
+}
+
+span.circle-count {
+	background-color: orange;
+	display: inline-block;
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 50%;
+    text-align: center;
+}
+
+div.bage .title {
+	font-size: 20px;
+}
+div.bage .title h2{
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+div.bage .author p {
+	margin: 0;
+}
+
+div.bage {
+	padding: 20px;
+	overflow: hidden;
+	background-color: #8640FF;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: #fff;
+	position: fixed;
+	bottom: -65px;
+	transition: 1s background-color, 1s bottom;
+}
+
+div.bage:hover {
+	background-color: #719CFF;
+	bottom: 0;
+}
+
